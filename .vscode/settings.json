@@ -1,0 +1,13 @@
+{
+  "terraform.languageServer": {
+    "external": true,
+    "pathToBinary": "",
+    "args": ["serve"],
+    "maxNumberOfProblems": 100,
+    "trace.server": "off"
+  },
+  "[terraform]": {
+    "editor.formatOnSave": true
+  },
+  "azureTerraform.terminal": "integrated"
+}
