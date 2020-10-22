@@ -18,7 +18,7 @@ variable "admin_name" {
 
 variable "admin_email" {
   type        = string
-  default     = "name@example.com"
+  default     = "admin@example.com"
   description = "Sets the email adress for the admin user."
 }
 
