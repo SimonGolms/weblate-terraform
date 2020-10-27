@@ -143,7 +143,7 @@ resource "azurerm_app_service" "app" {
   site_config {
     always_on        = true
     http2_enabled    = true
-    linux_fx_version = "DOCKER|weblate/weblate:4.2.2-1"
+    linux_fx_version = "DOCKER|weblate/weblate:4.3.1-1"
   }
 
   lifecycle {
